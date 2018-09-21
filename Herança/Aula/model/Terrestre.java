@@ -1,4 +1,4 @@
-package Herança.model;
+package Herança.Aula.model;
 
 public class Terrestre extends Transporte {
 

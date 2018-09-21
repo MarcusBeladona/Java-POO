@@ -1,5 +1,5 @@
-package Herança.exec;
-import Herança.model.*;
+package Herança.Aula.exec;
+import Herança.Aula.model.*;
 
 public class Principal {
 
