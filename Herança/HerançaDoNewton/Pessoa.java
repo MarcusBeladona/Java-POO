@@ -30,4 +30,13 @@ public class Pessoa {
     public int getTelefone () {
         return this.telefone;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", telefone=" + telefone +
+                '}';
+    }
 }
