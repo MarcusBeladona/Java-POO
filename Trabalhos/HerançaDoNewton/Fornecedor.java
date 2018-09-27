@@ -5,10 +5,11 @@ public class Fornecedor extends Pessoa {
     private double valorCredito;
     private double valorDivida;
 
-    public Fornecedor () { }
+    public Fornecedor() {
+    }
 
-    Fornecedor (String nome, String endereco, int telefone, double valorCredito, double valorDivida ) {
-        super(nome,endereco,telefone);
+    Fornecedor( String nome, String endereco, int telefone, double valorCredito, double valorDivida ) {
+        super( nome, endereco, telefone );
         this.valorCredito = valorCredito;
         this.valorDivida = valorDivida;
     }
@@ -17,7 +18,7 @@ public class Fornecedor extends Pessoa {
         return valorCredito;
     }
 
-    public void setValorCredito(double valorCredito) {
+    public void setValorCredito( double valorCredito ) {
         this.valorCredito = valorCredito;
     }
 
@@ -25,7 +26,7 @@ public class Fornecedor extends Pessoa {
         return valorDivida;
     }
 
-    public void setValorDivida(double valorDivida) {
+    public void setValorDivida( double valorDivida ) {
         this.valorDivida = valorDivida;
     }
 
@@ -36,8 +37,8 @@ public class Fornecedor extends Pessoa {
     @Override
     public String toString() {
         return super.toString() + "Fornecedor{" +
-                "valorCredito=" + valorCredito +
-                ", valorDivida=" + valorDivida +
-                '}';
+               "valorCredito=" + valorCredito +
+               ", valorDivida=" + valorDivida +
+               '}';
     }
 }
