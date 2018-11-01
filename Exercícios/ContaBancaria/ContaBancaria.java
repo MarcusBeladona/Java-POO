@@ -33,4 +33,10 @@ public abstract class ContaBancaria {
         this.sacar(valor);
         conta.depositar(valor);
     }
+
+    public void mostrarDados () {
+        System.out.println(
+                "Conta: " + this.getNumeroDaConta() +
+                "\nSaldo: " + this.getSaldo());
+    }
 }

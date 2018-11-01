@@ -2,40 +2,31 @@ package Exercícios.ContaBancaria;
 
 import java.util.ArrayList;
 
-public class Banco {
+public class Banco implements Imprimivel {
 
-   //ContaBancaria contas[] = new ContaBancaria[50];
    ArrayList<ContaBancaria> contas = new ArrayList <>();
 
     public void inserir ( ContaBancaria conta ) {
-        /*for (int j = 0; j < contas.length ; j++) {
-            if (contas[j] == null) {
-                contas[j] = conta;
-            }
-        }*/
         contas.add( conta );
     }
 
    public void remover ( ContaBancaria conta ) {
-       /*for (int j = 0; j < contas.length ; j++) {
-           if ( contas[j].equals( conta )) {
-               contas[j] = null;
-           }
-       }*/
        contas.remove( conta );
    }
 
-   public ContaBancaria procurarConta (String conta) {
-        /*for (int i = 0; i < contas.length ; i++) {
-            if ( contas[i].getNumeroDaConta().equals( conta ) ) {
-                return contas[i];
-            }
-        }*/
+   public  ContaBancaria procurarConta (String conta) {
         for(ContaBancaria c : contas){
             if(c.getNumeroDaConta().equals( conta )){
                 return c;
             }
         }
         return null;
+    }
+
+    @Override
+    public void mostrarDados() {
+        for (int i = 0; i < contas.size() ; i++) {
+            System.out.println(contas.get( i ).getNumeroDaConta());
+        }
     }
 }
