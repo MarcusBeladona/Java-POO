@@ -1,4 +1,4 @@
-package Exercícios.ContaBancaria;
+package Trabalhos.ContaBancaria;
 
 public class ContaCorrente extends ContaBancaria implements Imprimivel {
 

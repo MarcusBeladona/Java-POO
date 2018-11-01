@@ -1,4 +1,4 @@
-package Exercícios.ContaBancaria;
+package Trabalhos.ContaBancaria;
 
 import java.util.Scanner;
 
