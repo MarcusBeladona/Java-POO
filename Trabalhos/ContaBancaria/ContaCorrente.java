@@ -4,7 +4,7 @@ public class ContaCorrente extends ContaBancaria implements Imprimivel {
 
     private double limite = 50;
 
-    public ContaCorrente( String conta, double saldo ) {
+    ContaCorrente( String conta, double saldo ) {
         super( conta, saldo );
     }
 

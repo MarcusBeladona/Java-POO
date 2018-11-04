@@ -1,6 +1,6 @@
 package Trabalhos.ContaBancaria;
 
-public class Main {
+public class TesteExecutavel {
 
     public static void main( String[] args ) {
 

@@ -1,8 +1,8 @@
 package Trabalhos.ContaBancaria;
 
-public class Relatorio {
+class Relatorio {
 
-    public void gerarRelatorio( Imprimivel a ) {
+    void gerarRelatorio( Imprimivel a ) {
         a.mostrarDados();
     }
 }
