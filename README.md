@@ -11,3 +11,11 @@ Desta forma torna-se fácil a pesquisa de commits mais específicos, veja a list
 <h3>FIX</h3> Concertado, erros e issues quando corrigidos.
 
 <i><br><br>Desculpe, aparentemente o meu cachorro comeu o diretório...<i>
+
+![Ufc Quixada - POO](https://www.quixada.ufc.br/wp-content/uploads/2017/10/logo.png)
+# Comentarios da AP1 - POO #
+- Cliente: Lembrete: método toString quando usar variáveis da própria classe colocar o this.
+- Corrida: Lembrete: método toString quando usar variáveis da própria classe colocar o this.
+- MotoTaxi: Lembrete: método toString quando usar variáveis da própria classe colocar o this. realizarCorrida não usar o get para acessar atributos de dentro da própria classe que você está. O get é apenas para usar de fora da classe, use o this.nomeatributo. 
+- Principal: ok
+- Pacotes: Usar os pacotes padrões definidos na disciplina br.ufc.quixada.sigladocurso (model e exec)
